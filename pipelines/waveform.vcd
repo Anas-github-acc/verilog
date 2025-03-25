@@ -1,0 +1,125 @@
+$date
+	Tue Mar 25 11:13:30 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module stimuli $end
+$var wire 10 ! F [9:0] $end
+$var reg 10 " A [9:0] $end
+$var reg 10 # B [9:0] $end
+$var reg 10 $ C [9:0] $end
+$var reg 10 % D [9:0] $end
+$var reg 1 & clk $end
+$scope module uut $end
+$var wire 10 ' A [9:0] $end
+$var wire 10 ( B [9:0] $end
+$var wire 10 ) C [9:0] $end
+$var wire 10 * D [9:0] $end
+$var wire 10 + F [9:0] $end
+$var wire 1 & clk $end
+$var reg 10 , L12_D [9:0] $end
+$var reg 10 - L12_x1 [9:0] $end
+$var reg 10 . L12_x2 [9:0] $end
+$var reg 10 / L23_D [9:0] $end
+$var reg 10 0 L23_x3 [9:0] $end
+$var reg 10 1 L34_D [9:0] $end
+$var reg 10 2 L34_F [9:0] $end
+$upscope $end
+$upscope $end
+$scope module stimuli $end
+$scope module uut $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+b11 *
+b1000 )
+b101 (
+b1010 '
+0&
+b11 %
+b1000 $
+b101 #
+b1010 "
+bx !
+$end
+#5000
+b11 ,
+1&
+#9000
+b101 .
+b1111 -
+#10000
+0&
+b100 %
+b100 *
+b1100 $
+b1100 )
+b111 #
+b111 (
+b1111 "
+b1111 '
+#15000
+b11 /
+b100 ,
+1&
+#19000
+b10100 0
+b1000 .
+b10110 -
+#20000
+0&
+b110 %
+b110 *
+b1110 $
+b1110 )
+b1010 #
+b1010 (
+b10100 "
+b10100 '
+#25000
+b11 1
+b100 /
+b110 ,
+1&
+#29000
+b11110 0
+b11110 -
+#30000
+0&
+b1000 %
+b1000 *
+b10010 $
+b10010 )
+b1100 #
+b1100 (
+b11001 "
+b11001 '
+#31000
+b111100 !
+b111100 +
+b111100 2
+#35000
+b100 1
+b110 /
+b1000 ,
+1&
+#39000
+b100110 0
+b1010 .
+b100101 -
+#40000
+0&

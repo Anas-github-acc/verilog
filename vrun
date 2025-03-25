@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -e
+
+# Check if file path is provided
+if [ -z "$1" ]; then
+    echo "Usage: ./run.sh <path_to_verilog_file>"
+    exit 1
+fi
+
+# Extract file name without extension
+file_path="$1"
+file_name=$(basename -- "$file_path")
+file_name_no_ext="${file_name%.*}"
+
+# Compile and run Verilog code
+iverilog -o "${file_name_no_ext}.out" "$file_path"
+vvp "${file_name_no_ext}.out"
+
+# Cleanup (optional)
+rm -f "${file_name_no_ext}.out"
