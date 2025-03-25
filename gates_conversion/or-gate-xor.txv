@@ -1,0 +1,12 @@
+module or_gate_xor(
+    input a,
+    input b,
+    output y
+);
+
+    wire xor_out;
+    
+    xor(xor_out, a, b);
+    xor(y, xor_out, a);
+
+endmodule

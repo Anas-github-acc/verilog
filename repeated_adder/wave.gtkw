@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.100
+[*]
+[dumpfile] "repeated_adder_tb.vcd"
+[dumpfile_mtime] "Wed May 31 12:00:00 2023"
+[dumpfile_size] 1000
+[timestart] 0
+[size] 1200 600
+[pos] -1 -1
+*-16.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] repeated_adder_tb.
+[sst_width] 150
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@28
+repeated_adder_tb.clk
+repeated_adder_tb.reset
+repeated_adder_tb.start
+repeated_adder_tb.done
+@22
+repeated_adder_tb.A[3:0]
+repeated_adder_tb.B[3:0]
+repeated_adder_tb.product[7:0]
+[pattern_trace] 1
