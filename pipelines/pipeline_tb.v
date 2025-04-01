@@ -21,12 +21,11 @@ module stimuli;
     
     initial begin
         $dumpfile("waveform.vcd");  
-        $dumpvars(0, stimuli);      // Dump all variables
-        $dumpvars(1, uut);          // Dump internal pipeline registers
+        $dumpvars(0, stimuli);
+        $dumpvars(1, uut);
     end
 
     
-    // Clock generation
     always #5 clk = ~clk;
     
     initial begin
