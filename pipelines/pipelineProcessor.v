@@ -9,19 +9,19 @@ module PipelineProcessor (
     // Register File
     reg [31:0] register_file [0:31];
 
-    initial begin
-        register_file[0] = 32'h00000001;
-        register_file[1] = 32'h00000002;
-        register_file[2] = 32'h00000003;
-        register_file[3] = 32'h00000004;
-        register_file[4] = 32'h00000005;
-        register_file[5] = 32'h00000006;
-        register_file[6] = 32'h00000007;
-        register_file[7] = 32'h00000008;
-        register_file[8] = 32'h00000009;
-        register_file[9] = 32'h0000000A;
-        $display("Register file initialized");
-    end
+    // initial begin
+    //     register_file[0] = 32'h00000001;
+    //     register_file[1] = 32'h00000002;
+    //     register_file[2] = 32'h00000003;
+    //     register_file[3] = 32'h00000004;
+    //     register_file[4] = 32'h00000005;
+    //     register_file[5] = 32'h00000006;
+    //     register_file[6] = 32'h00000007;
+    //     register_file[7] = 32'h00000008;
+    //     register_file[8] = 32'h00000009;
+    //     register_file[9] = 32'h0000000A;
+    //     $display("Register file initialized");
+    // end
 
     // Pipeline Registers
     reg [31:0] A_EX, B_EX, ALU_OUT_MEM, MEM_OUT;
